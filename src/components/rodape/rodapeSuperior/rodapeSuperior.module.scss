@@ -1,0 +1,48 @@
+@import "style/variaveis";
+
+.Conteiner{
+    display: flex;
+    justify-content: space-around;
+    height: 280px;
+    width: auto;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.barra{
+    color: $roxo;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.texto{
+    margin: 24px 0px 24px 0px;
+}
+
+.pesquisa{
+    border-radius: 15px 0 0 15px;
+    border-right: none;
+    border-color: rgb(241, 241, 241);
+    border-style: double;
+    height: 50px;
+    padding-left: 19px;
+    width: 375px;
+}
+
+.botao{
+    background-position: center;
+    background-color: $roxo;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    border-left: none;
+    padding: 0px;
+    height: 56px;
+    width: 150px;
+    font-size: 16px;
+    position: relative;
+    right: 25px;
+}

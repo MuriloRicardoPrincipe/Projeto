@@ -1,0 +1,56 @@
+
+
+.Conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    height: 75px;
+    width: auto;
+    align-items: center;
+}
+
+.BotaoLink{
+    margin: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.BotaoLinkAoVivo{
+    width: 55px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.BotaoLinkImage{
+    width: 30px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.BarraPesquisa{
+    height: 41px;
+    width: 192px;
+    border-radius: 15px 0 0 15px;
+    border-color: rgb(241, 241, 241);
+    border-style: double;
+    border-right: none;
+    padding-left: 15px;
+    position: relative;
+    left: 4px;
+}
+
+.BotaoPesquisa{
+    background-image: url(../../../assets/Imagens/iconesvg/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    border-radius: 0 15px 15px 0;
+    border-left: none;
+    border-color: rgb(241, 241, 241);
+    border-style: double;
+    padding: 17px;
+    height: 47px;
+    width: 50px; 
+}
+

@@ -1,0 +1,99 @@
+@import "style/variaveis";
+
+.Roxo{
+    color: $roxo;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.formulario__titulo{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 100px 100px 40px 100px;
+}
+
+.formulario__conteinerN1{
+    padding-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.formulario__conteinerFoto{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__conteinerN2{
+    width: 60%;
+}
+
+.formulario__input{
+    width: 45%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: $roxo;
+    font-size: 16px;
+}
+
+.formulario__selecionarDP{
+    width: 46%;
+    height: 54px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: $roxo;
+    font-size: 16px;
+}
+
+.formulario__selecionarCD{
+    width: 22.5%;
+    height: 54px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: $roxo;
+    font-size: 16px;
+}
+
+.formulario__selecionarES{
+    width: 22.5%;
+    height: 54px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: $roxo;
+    font-size: 16px;
+}
+
+.formulario__mensagem{
+    width: 92.5%;
+    height: 150px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: $roxo;
+    border-width: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.formulario__botao{
+    background-position: 65%;
+    background-color: $roxo;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    border-left: none;
+    padding: 0px;
+    height: 56px;
+    width: 94.3%;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: url(../../assets/Imagens/iconespng/botaoEnviar.png);
+    background-repeat: no-repeat;
+
+}
+
+.formulario__conteinerFoto{
+    margin: 37px 0px 53px 0px;
+}

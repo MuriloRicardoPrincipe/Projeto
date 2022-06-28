@@ -1,4 +1,4 @@
-
+@import "style/variaveis";
 
 .Conteiner{
     display: flex;
@@ -29,15 +29,14 @@
 }
 
 .BarraPesquisa{
-    height: 41px;
+    height: 47px;
     width: 192px;
     border-radius: 15px 0 0 15px;
-    border-color: rgb(241, 241, 241);
+    border-color: $grey;
     border-style: double;
     border-right: none;
     padding-left: 15px;
-    position: relative;
-    left: 4px;
+
 }
 
 .BotaoPesquisa{
@@ -46,11 +45,13 @@
     background-position: center;
     background-color: #FFFFFF;
     border-radius: 0 15px 15px 0;
-    border-left: none;
-    border-color: rgb(241, 241, 241);
+    border-color: $grey;
     border-style: double;
+    border-left: none;
     padding: 17px;
     height: 47px;
-    width: 50px; 
+    width: 50px;
+    position: relative;
+    top: -2px;
 }
 

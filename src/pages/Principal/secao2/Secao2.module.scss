@@ -1,0 +1,42 @@
+@import "style/variaveis";
+
+.Conteiner{
+    margin: 0 4%;
+}
+
+.ConteinerLiveTitulo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 ;
+    align-items: flex-end;
+}
+
+.ConteinerLive{
+    display: flex;
+}
+
+.BarraVermelha{
+    background-color: red;
+    padding: 2px 33%
+}
+
+.LiveTituloBarra{
+    color: red;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.LiveTitulo{
+    margin: 0;
+}
+
+.MidiaSudoeste{
+    color: $roxo;
+}
+
+.TodasAsNoticias{
+    margin: 0;
+}
+
+
+

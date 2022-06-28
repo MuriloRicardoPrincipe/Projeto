@@ -1,0 +1,31 @@
+@import "style/variaveis";
+
+.secao{
+    background-color: #f6f6f6;
+}
+
+.conteinerPropaganda{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 70px;
+}
+
+.conteinerN2{
+    display: flex;
+}
+
+.botaoEmailMidia{
+    color: $roxo ;
+    height: 50px;
+    width: 262px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+}

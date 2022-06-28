@@ -1,0 +1,31 @@
+@import "style/variaveis";
+
+
+.ConteinerN2{
+    margin: 10px;
+}
+
+.Foto{
+    width: 290px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.Categoria{
+    font-size: 20px;
+    background-color: $roxo ;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 2px 30px;
+}
+
+.ConteinerDescricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TituloProduto{
+    font-size: 18px;
+}

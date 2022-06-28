@@ -1,0 +1,15 @@
+[
+    {
+        "titulo": "Titulo",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue non neque elementum accumsan. Maecenas neque velit, accumsan a laoreet sit amet, venenatis et quam. Vestibulum pretium tincidunt justo, id vulputate diam tincidunt ac. Ut efficitur vehicula sem, nec sodales massa elementum vitae.Proin bibendum nulla in tincidunt vulputate. Nullam nec justo nisl. Ut ac mi fringilla, scelerisque felis eu, cursus dui. Vivamus dictum eu ligula at viverra. ",
+        "foto": "/assets/noticia/gato.png",
+        "data": "01/01/2022",
+        "views": 100,
+        "Autor": "Murilo",
+        "id": 1,
+        "tags":{
+            "label": "Etretenimento",
+            "id": 1
+        }
+    }
+  ]

@@ -1,13 +1,15 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import FaleConosco from './pages/contato';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Principal from 'pages/Principal';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <FaleConosco/>
+    <Principal/>
   </React.StrictMode>
 );

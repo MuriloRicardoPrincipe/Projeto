@@ -1,0 +1,18 @@
+[
+    {
+      "label": "Veiculo",
+      "id": 1
+    },
+    {
+      "label": "Eletrônico",
+      "id": 2
+    },
+    {
+      "label": "Residência",
+      "id": 3
+    },
+    {
+      "label": "Esporte",
+      "id": 4
+    }
+  ]

@@ -1,0 +1,18 @@
+[
+    {
+      "label": "Etretenimento",
+      "id": 1
+    },
+    {
+      "label": "Geral",
+      "id": 2
+    },
+    {
+      "label": "Policial ",
+      "id": 3
+    },
+    {
+      "label": "Esporte",
+      "id": 4
+    }
+  ]

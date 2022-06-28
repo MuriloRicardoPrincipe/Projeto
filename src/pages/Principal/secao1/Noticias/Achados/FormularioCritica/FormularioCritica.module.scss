@@ -1,0 +1,90 @@
+@import "style/variaveis";
+
+.FormularioCard{
+    margin: 5px;
+}
+
+.FormGrupo{
+    display: flex;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+.Titulo{
+    font-size: 18px;
+}
+
+.Texto{
+    font-size: 14px;
+    margin: 0;
+}
+
+.FormInpute{
+    margin: 3px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: $roxo;
+    font-size: 16px;
+}
+
+.Mensagem{
+    margin: 3px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: $roxo;
+    font-size: 16px;
+    width: 100%;
+}
+
+.Barra{
+    color: #f23838;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fileIcone{
+    width: 10px;
+}
+
+.EnviarArquivos{
+    display: flex;
+    
+}
+
+.EnviarFrase{
+    font-size: 12px;
+    margin: 15px 10px;
+}
+
+.EnviarBotao{
+    color: #b8b8b8;
+    font-size: 14px;
+    width: 125px;
+    height: 50px;
+    border-style: dashed;
+    border-color: #6710f3;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.EnviarFormCompleto{
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    border-color: $roxo;
+    background-color:$roxo;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 5px;
+}

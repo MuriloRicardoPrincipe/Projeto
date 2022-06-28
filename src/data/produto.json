@@ -1,0 +1,134 @@
+[
+    {
+        "titulo": "Tracker novo",
+        "descricao": "Carro novo e completo com apenas 5000 kms rodados ",
+        "foto": "/assets/Anuncios/carro.jpg",
+        "preco": 85000.00,
+        "id": 1,
+        "categoria": {
+          "id": 1,
+          "label": "Veiculo"
+        }
+      },    
+      {
+        "titulo": "Tracker novo",
+        "descricao": "Carro novo e completo com apenas 5000 kms rodados ",
+        "foto": "/assets/Anuncios/carro.jpg",
+        "preco": 85000.00,
+        "id": 2,
+        "categoria": {
+          "id": 1,
+          "label": "Veiculo"
+        }
+      },    
+      {
+        "titulo": "Tracker novo",
+        "descricao": "Carro novo e completo com apenas 5000 kms rodados ",
+        "foto": "/assets/Anuncios/carro.jpg",
+        "preco": 85000.00,
+        "id": 3,
+        "categoria": {
+          "id": 1,
+          "label": "Veiculo"
+        }
+      },
+      {
+        "titulo": "Tracker novo",
+        "descricao": "Carro novo e completo com apenas 5000 kms rodados ",
+        "foto": "/assets/Anuncios/carro.jpg",
+        "preco": 85000.00,
+        "id": 4,
+        "categoria": {
+          "id": 1,
+          "label": "Veiculo"
+        }
+      },
+      {
+        "titulo": "PS5",
+        "descricao": "Video game ",
+        "foto": "/assets/Anuncios/ps5.png",
+        "preco": 45000.00,
+        "id": 5,
+        "categoria": {
+          "id": 2,
+          "label": "Eletrônicos"
+        }
+      },
+      {
+        "titulo": "PS5",
+        "descricao": "Video game ",
+        "foto": "/assets/Anuncios/ps5.png",
+        "preco": 45000.00,
+        "id": 6,
+        "categoria": {
+          "id": 2,
+          "label": "Eletrônicos"
+        }
+      },
+      {
+        "titulo": "PS5",
+        "descricao": "Video game ",
+        "foto": "/assets/Anuncios/ps5.png",
+        "preco": 45000.00,
+        "id": 7,
+        "categoria": {
+          "id": 2,
+          "label": "Eletrônicos"
+        }
+      },
+      {
+        "titulo": "PS5",
+        "descricao": "Video game ",
+        "foto": "/assets/Anuncios/ps5.png",
+        "preco": 45000.00,
+        "id": 8,
+        "categoria": {
+          "id": 2,
+          "label": "Eletrônicos"
+        }
+      },
+      {
+        "titulo": "Bicicleta",
+        "descricao": "Bicicleta esportiva profissional",
+        "foto": "/assets/Anuncios/bicicleta.png",
+        "preco": 15000.00,
+        "id": 9,
+        "categoria": {
+          "id": 4,
+          "label": "Esporte"
+        }
+      },
+      {
+        "titulo": "Bicicleta",
+        "descricao": "Bicicleta esportiva profissional",
+        "foto": "/assets/Anuncios/bicicleta.png",
+        "preco": 15000.00,
+        "id": 10,
+        "categoria": {
+          "id": 4,
+          "label": "Esporte"
+        }
+      },
+      {
+        "titulo": "Bicicleta",
+        "descricao": "Bicicleta esportiva profissional",
+        "foto": "/assets/Anuncios/bicicleta.png",
+        "preco": 15000.00,
+        "id": 11,
+        "categoria": {
+          "id": 4,
+          "label": "Esporte"
+        }
+      },
+      {
+        "titulo": "Bicicleta",
+        "descricao": "Bicicleta esportiva profissional",
+        "foto": "/assets/Anuncios/bicicleta.png",
+        "preco": 15000.00,
+        "id": 12,
+        "categoria": {
+          "id": 4,
+          "label": "Esporte"
+        }
+      }
+]

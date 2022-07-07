@@ -13,8 +13,6 @@ export default function Menu(){
             <div>
                 <MenuInferior/>
             </div>
-            <div className={Style.LinhaInferior}>
-            </div>
         </header>
     )
 }

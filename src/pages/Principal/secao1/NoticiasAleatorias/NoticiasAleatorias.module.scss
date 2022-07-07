@@ -1,0 +1,39 @@
+@import "style/variaveis";
+
+.Conteiner{
+    display: flex;
+    align-items: center;
+}
+
+.TamanhoConteudo{
+    width: 250px;
+    height: 230px;
+    margin: 5% 5% 3% 0;
+    
+}
+
+.Banner{
+    width: 354px;
+    height: 250px;
+    margin: 20px;
+}
+
+.TagsConteudo{
+    position: relative;
+    top: 80%;
+    background-color: $roxo;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.LinkConteudo{
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+
+    &:hover{
+        font-weight: 800;
+        color: $dark-grey;
+        text-decoration: none;
+    }  
+}

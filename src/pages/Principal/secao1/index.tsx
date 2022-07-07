@@ -1,34 +1,35 @@
-import Propaganda from "../../../assets/Imagens/propaganda/casadoveneno.png";
-import Email from "../../../assets/Imagens/iconespng/email.png";
-import Style from "./Secao.module.scss";
-import Noticias from "./Noticias";
+import Style from './NoticiasDoDia.module.scss'
+import email from '../../../assets/Imagens/iconespng/email.png'
+import banner from '../../../assets/Imagens/propaganda/casadoveneno.png'
+import SliderNoticia from './SliderNoticia'
+import NoticiasAleatorias from './NoticiasAleatorias'
+import AchadosPerdidos from './AchadosPerdidos'
 
-export default function Secao() {
+export default function NoticiasDoDia() {
 
     return (
-        <div>
-            <div className={Style.conteinerPropaganda}>
-                <img className={Style.Banner} src={Propaganda} alt="propaganda" />
+        <div className={Style.Conteiner}>
+            <div className={Style.ConteinerPublicidade}>
+                <img className={Style.Publicidade} src={banner} alt="" />
             </div>
-            <div className={Style.conteiner}>
-                <div className={Style.conteinerN2}>
-                    <h2 className={Style.Acontecendo}>ACONTECENDO AGORA</h2>
-                    <span className={Style.barraSeparadora}>|</span>
-                    <p className={Style.AcontecendoDestaque}>Em Bom Jesus do Sul homem e atacado por onça parda vinda da Argentina.</p>
+            <div className={Style.ConteinerLinha}>
+                <div className={Style.ConteinerAcontecendo}>
+                    <h2 className={Style.AcontecendoAgora}>ACONTECENDO AGORA</h2>
+                    <span className={Style.Separador}> | </span>
+                    <p className={Style.FraseDaNoticiaEmDestaque}>FRASE A SER SETADA</p>
                 </div>
-                <button className={Style.botaoEmailMidia}>
-                    <img src={Email} alt="botao quero ter um @midiamail" />Quero ter um @midiamail.
-                </button>
-            </div>
-            <div className={Style.conteinerPropaganda}>
-                <Noticias/>
+                <div className={Style.ConteinerBotao}>
+                    <button className={Style.BotaoEmail}><img src={email} alt="" /> Quero ter um @midiamail</button>
+                </div>
             </div>
             <div>
-                <div className={Style.ConteinerPublicidade} >
-                    <div className={Style.PublicidadeRodape}>
-                        publicidade
-                    </div>
-                </div>
+                <SliderNoticia/>
+            </div>
+            <div>
+                <NoticiasAleatorias/>
+            </div>
+            <div>
+                <AchadosPerdidos/>
             </div>
         </div>
     )

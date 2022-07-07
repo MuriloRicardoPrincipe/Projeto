@@ -7,6 +7,7 @@ import logoYou from '../../../assets/Imagens/iconespng/you.png';
 import logoWt from '../../../assets/Imagens/iconespng/wt.png';
 import AoVivo from '../../../assets/Imagens/iconespng/aoVivo.png';
 import Style from './MenuSuperior.module.scss'
+import { Link } from 'react-router-dom';
 
 export default function MenuSuperior() {
     return (
@@ -14,7 +15,7 @@ export default function MenuSuperior() {
             <nav>
                 <ul>
                     <li className={Style.Conteiner}>
-                        <a className={Style.BotaoLink}>FALE CONOSCO</a>
+                        <Link className={Style.BotaoLink} to={'/fale-conosco'}>FALE CONOSCO</Link>
                         <a className={Style.BotaoLink}>EXPEDIENTE</a>
                         <a><img className={Style.BotaoLinkAoVivo} src={AoVivo} alt="Botão ao vivo" /></a>
                         <a><img className={Style.BotaoLinkImage} src={logoFace} alt="Botão facebook" /></a>
@@ -22,7 +23,7 @@ export default function MenuSuperior() {
                         <a><img className={Style.BotaoLinkImage} src={logoInst} alt="Botão instagram" /></a>
                         <a><img className={Style.BotaoLinkImage} src={logoYou} alt="Botão You Tube" /></a>
                         <a><img className={Style.BotaoLinkImage} src={logoWt} alt="Botão Whatsapp" /></a>
-                        <img className={Style.BotaoLink} src={logoMidia} alt="Botão MidiaSuldoeste.com.br" />
+                        <Link to={'/'}><img className={Style.BotaoLink} src={logoMidia} alt="Botão MidiaSuldoeste.com.br" /></Link>
                         <a className={Style.BotaoLink}>PREVISAO DE TEMPO</a>
                     </li>
                 </ul>

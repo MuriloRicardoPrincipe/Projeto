@@ -1,0 +1,101 @@
+@import "style/variaveis";
+
+.Conteiner{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 4% ;
+}
+
+.ContraBarra{
+    color: $roxo;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.Titulo{
+    margin: 0;
+    position: relative;
+    top: 12px;
+}
+
+.Barra{
+    background-color: $roxo;
+    padding: 2px 40%;
+}
+
+.LinkEsporte{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+    top: 6px;
+    &:hover{
+        color:$roxo
+        
+    }
+}
+
+
+.EspoteEmDestaque{
+    display: flex;
+    margin: 5% 4%;
+    align-items: center;
+}
+
+.ConteinerEspoteEmDestaqueConteudo{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.EsporteFotoPrincipal{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.EspoteEmDestaqueConteudo{
+    width: 100%;
+    margin-right: 50px;
+}
+
+.EsporteTitulo{
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+}
+
+.Relogio{
+    color: $roxo;
+}
+
+.ConteudoEsporte{
+    font-size: 18px;
+    color: $dark-grey;
+    text-decoration: none;
+}
+
+.ConteinerPropaganda{
+    width: 30%;
+}
+
+.Propaganda{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ConteinerNoticiasEsporte{
+    width: 21%;
+    margin: 20px;
+}
+
+.FotoDaNoticia{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ConteinerVariadosEsporte{
+    display: flex;
+    margin: 10px 4% ;
+}

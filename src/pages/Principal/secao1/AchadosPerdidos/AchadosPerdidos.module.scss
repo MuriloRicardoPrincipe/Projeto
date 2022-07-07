@@ -1,0 +1,63 @@
+@import "style/variaveis";
+
+.Conteiner{
+    display: flex;
+}
+
+.ConteinerSecao{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+    align-items: flex-end;
+}
+
+.TituloBarra{
+    color: red;
+    font-weight: 700;
+    font-size: 38px;
+
+}
+
+.Titulo{
+    margin: 0;
+    width: 23%;
+}
+
+.Achados{
+    color: rgb(26, 105, 17);
+}
+
+.Perdidos{
+    color: red;
+}
+
+.Barra{
+    background-color: red;
+    padding: 2px 20%;
+    
+}
+
+.Link{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+    top: 6px;
+    &:hover{
+        color:$roxo
+        
+    }
+}
+
+.Formulario{
+    display: flex;
+}
+
+.publicidade{
+    border-radius: 10px;
+        width: 100%;
+        height: 96px;
+        margin: 10px 0;
+}

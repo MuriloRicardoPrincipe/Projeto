@@ -1,0 +1,75 @@
+@import "style/variaveis";
+
+
+.Conteiner{
+    display: flex;
+}
+
+.ConteinerForm{
+    margin: 10px 0px;
+}
+
+.BarraMenor{
+    background-color: red;
+    padding: 1px 10%;
+    width: 136%;
+}
+
+.TamanhoForm{
+    display: block;
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.25rem;
+    border-color: $roxo;
+}
+
+.Botao{
+    width: 80%;
+    height: 33%;
+    position: relative;
+    top: 35%;
+    background-color: #6710f3;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.ArrumandoTamanho{
+   width: 50%;
+}
+
+.TituloAchados{
+    width: 136%;
+}
+
+.foto{
+    height: 67%;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.TamanhoFormFile{
+    display: block;
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 0.25rem;
+    border-color: $roxo;
+}

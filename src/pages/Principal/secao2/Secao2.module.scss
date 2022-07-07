@@ -28,6 +28,8 @@
 
 .LiveTitulo{
     margin: 0;
+    position: relative;
+    top: 12px;
 }
 
 .MidiaSudoeste{
@@ -35,7 +37,17 @@
 }
 
 .TodasAsNoticias{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
     margin: 0;
+    position: relative;
+    top: 6px;
+    &:hover{
+        color:$roxo
+        
+    }
 }
 
 

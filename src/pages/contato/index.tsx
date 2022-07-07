@@ -3,8 +3,6 @@ import Style from './FaleConosco.module.scss'
 import Localizacao from './localizacao';
 import tele from '../../assets/Imagens/iconespng/telefoneRoxo.png'
 import localiza from '../../assets/Imagens/iconespng/LocalizaRoxo.png'
-import Menu from 'components/menu';
-import Rodape from 'components/rodape';
 
 export default function FaleConosco() {
 
@@ -15,9 +13,6 @@ export default function FaleConosco() {
 
     return (
         <>
-        <div>
-            <Menu/>
-        </div>
         <div>
             <h2 className={Style.formulario__titulo}><span className={Style.Roxo}>/</span>Fale Conosco<span className={Style.Roxo}>.</span></h2>
         </div>
@@ -94,7 +89,6 @@ export default function FaleConosco() {
             <div>
                 <Localizacao />
             </div>
-            <Rodape/>
         </>
     );
 }

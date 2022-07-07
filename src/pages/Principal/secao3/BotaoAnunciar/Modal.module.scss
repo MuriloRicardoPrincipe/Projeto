@@ -1,0 +1,104 @@
+@import "style/variaveis";
+
+.botao__anuciar{
+    background-position: center;
+    background-color: #fb1c1c;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+    height: 47px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Titulo{
+    color: $roxo;
+    margin: 0px 45px;
+}
+
+.ConteinerFormulario{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 0px 55px;
+}
+
+.InputFormulario{
+    width: 45%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: $roxo;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.SelectFormulario{
+    width: 45%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: $roxo;
+    font-size: 16px;
+    border-width: 2px;
+    padding: 0px 10px;
+}
+
+.TextFormulario{
+    width: 91%;
+    height: 150px;
+    margin: 5px;
+    border-radius: 10px;
+    border-color: $roxo;
+    font-size: 16px;
+    border-width: 2px;
+    padding: 0px 10px;
+}
+
+.Conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20.5%;
+    margin-right: 15px;
+}
+
+.H4Formulario{
+    font-size: 18px;
+    color:$grey;
+}
+
+.LabelFormulario{
+    font-size: 16px;
+}
+
+.addFotos{
+    color:$grey;
+    font-size: 14px;
+    width: 110px;
+    height: 75px;
+    border-style: dashed;
+    border-color: $roxo;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.botaoEnviar{
+    background-position: center;
+    background-color: #f58208;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    height: 55px;
+    width: 87%;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 60px;
+}

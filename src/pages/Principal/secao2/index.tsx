@@ -1,5 +1,5 @@
 import Style from "./Secao2.module.scss"
-import Videos from "./videosSegundarios/Index"
+import Videos from "./videosSecundarios/Index"
 import { BiChevronRightCircle } from 'react-icons/bi';
 
 export default function Aovivo() {

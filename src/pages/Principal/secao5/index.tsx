@@ -9,7 +9,7 @@ export default function Regional() {
 
         <div>
             <div className={Style.Conteiner}>
-                <h2 className={Style.Titulo}><span className={Style.ContraBarra}>/</span>Receitas</h2>
+                <h2 className={Style.Titulo}><span className={Style.ContraBarra}>/</span>Regional</h2>
                 <div className={Style.Barra}>
                 </div>
                 <a className={Style.LinkParaTodaAsReceitas} href="">todas receitas <BiChevronRightCircle /></a>

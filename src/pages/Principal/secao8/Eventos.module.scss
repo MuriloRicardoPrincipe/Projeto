@@ -1,0 +1,44 @@
+@import "style/variaveis";
+
+.Conteiner{
+    margin: 0 4%;
+}
+
+.ConteinerLiveTitulo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 ;
+    align-items: flex-end;
+}
+
+.BarraVermelha{
+    background-color: red;
+    padding: 2px 40%
+}
+
+.LiveTituloBarra{
+    color: red;
+    font-weight: 700;
+    font-size: 38px;
+}
+.LiveTitulo{
+    margin: 0;
+    position: relative;
+    top: 12px;
+    color: #fff;
+}
+
+.TodasAsNoticias{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+    top: 6px;
+    &:hover{
+        color:$roxo
+        
+    }
+}
+

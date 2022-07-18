@@ -7,7 +7,7 @@ export default function Esporte() {
     return (
         <div>
             <div className={Style.Conteiner}>
-                <h2 className={Style.Titulo}><span className={Style.ContraBarra}>/</span>Receitas</h2>
+                <h2 className={Style.Titulo}><span className={Style.ContraBarra}>/</span>Esporte</h2>
                 <div className={Style.Barra}>
                 </div>
                 <a className={Style.LinkEsporte} href="">todas as notícias <BiChevronRightCircle /></a>

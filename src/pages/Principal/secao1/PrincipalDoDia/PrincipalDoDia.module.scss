@@ -1,0 +1,75 @@
+@import "style/variaveis";
+
+.Conteiner{
+    background-color: $dark-grey;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.ConteinerPrincipal{
+    width: 60%;
+    margin: 4% 4% ;
+}
+
+.ConteinerDiversosDoDia{
+    width: 40%;
+    margin: 4% 4%;
+}
+
+.ConteinerDoDia{
+    display: flex;
+    align-items: center;
+}
+
+.dataEViews{
+    display: flex;
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.ConteudoNoticia{
+    margin: 10px;
+}
+
+.titulo{
+    font-size: 18px;
+    color: #fff;
+}
+
+.Relogio{
+    font-size: 14px;
+    color: #fff;
+}
+
+.view{
+    margin: 0 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.tag{
+    background-color: $roxo;
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.PrincipalTitulo{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.PrincipalConteudo{
+    color: #fff;
+    margin: 10px 0;
+}

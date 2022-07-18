@@ -1,9 +1,9 @@
 import Style from './NoticiasDoDia.module.scss'
 import email from '../../../assets/Imagens/iconespng/email.png'
 import banner from '../../../assets/Imagens/propaganda/casadoveneno.png'
-import SliderNoticia from './SliderNoticia'
 import NoticiasAleatorias from './NoticiasAleatorias'
 import AchadosPerdidos from './AchadosPerdidos'
+import PrincipalDoDia from './PrincipalDoDia'
 
 export default function NoticiasDoDia() {
 
@@ -23,7 +23,7 @@ export default function NoticiasDoDia() {
                 </div>
             </div>
             <div>
-                <SliderNoticia/>
+                <PrincipalDoDia/>
             </div>
             <div>
                 <NoticiasAleatorias/>
